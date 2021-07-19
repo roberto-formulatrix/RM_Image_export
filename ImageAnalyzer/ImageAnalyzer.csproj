@@ -52,12 +52,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ImageCodecs.cs" />
-    <Compile Include="ImageExporter.cs" />
-    <Compile Include="ImageResults.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="src\ImageCodecs.cs" />
+    <Compile Include="src\ImageExporter.cs" />
+    <Compile Include="src\ImageResults.cs" />
+    <Compile Include="src\Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RockMakerDB.cs" />
+    <Compile Include="src\RockMakerDB.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -71,6 +71,9 @@
       <Project>{c18c7127-5f60-4f1a-b3b3-95eddde39612}</Project>
       <Name>RockMakerModel</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="config\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
