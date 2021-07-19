@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="5029f1ba85c74567bf152f456493d810" Name="Diagram1">
+        <EntityTypeShape EntityType="RockMakerModel.AccessRight" Width="1.5" PointX="1.5" PointY="19.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="RockMakerModel.BufferCalculationType" Width="1.5" PointX="1.5" PointY="22.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="RockMakerModel.BufferDataPoint" Width="1.5" PointX="3" PointY="77.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="RockMakerModel.CaptureProfile" Width="1.5" PointX="37" PointY="15.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="RockMakerModel.CaptureProfileTuningValue" Width="1.5" PointX="39.25" PointY="15.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="RockMakerModel.CaptureProfileVersion" Width="1.5" PointX="34" PointY="26.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RockMakerModel.CaptureProperty" Width="1.5" PointX="36.25" PointY="24.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RockMakerModel.CaptureResult" Width="1.5" PointX="36.25" PointY="28.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="RockMakerModel.CaptureResultProperty" Width="1.5" PointX="38.5" PointY="26.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="RockMakerModel.CaptureResultTuningValue" Width="1.5" PointX="38.5" PointY="34.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="RockMakerModel.CASNumber" Width="1.5" PointX="3" PointY="101.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="RockMakerModel.Chart" Width="1.5" PointX="21.75" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RockMakerModel.ChartRequiredField" Width="1.5" PointX="26.25" PointY="23" IsExpanded="true" />
+        <EntityTypeShape EntityType="RockMakerModel.Condition" Width="1.5" PointX="6" PointY="13.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="RockMakerModel.ConditionIngredient" Width="1.5" PointX="8.25" PointY="25.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="RockMakerModel.ConditionListLayer" Width="1.5" PointX="3.75" PointY="12.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="RockMakerModel.ContainerDrop" Width="1.5" PointX="3.75" PointY="47.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="RockMakerModel.Container" Width="1.5" PointX="1.5" PointY="14.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="RockMakerModel.DatabaseProperty" Width="1.5" PointX="8.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RockMakerModel.Deck" Width="1.5" PointX="8.25" PointY="75.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="RockMakerModel.DispenseQueue" Width="1.5" PointX="3.75" PointY="58.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="RockMakerModel.DispensingRobot" Width="1.5" PointX="1.5" PointY="60.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="RockMakerModel.DispensingRobotType" Width="1.5" PointX="1.5" PointY="65.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="RockMakerModel.DriverProperty" Width="1.5" PointX="3.75" PointY="62.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="RockMakerModel.Experiment" Width="1.5" PointX="0.75" PointY="5.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="RockMakerModel.ExperimentCaptureProfileTuningValue" Width="1.5" PointX="42.25" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RockMakerModel.ExperimentPlate" Width="1.5" PointX="1.5" PointY="51" IsExpanded="true" />
+        <EntityTypeShape EntityType="RockMakerModel.ExperimentPlateEvent" Width="1.5" PointX="10.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RockMakerModel.FavoriteIngredientStock" Width="1.5" PointX="8.25" PointY="32.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="RockMakerModel.Filter" Width="1.5" PointX="26.25" PointY="34.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RockMakerModel.FilterValue" Width="1.5" PointX="28.5" PointY="38.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="RockMakerModel.FocalPoint" Width="1.5" PointX="38.5" PointY="38.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="RockMakerModel.Grid" Width="1.5" PointX="3" PointY="6.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="RockMakerModel.GridIngredient" Width="1.5" PointX="5.25" PointY="23" IsExpanded="true" />
+        <EntityTypeShape EntityType="RockMakerModel.GridLayer" Width="1.5" PointX="8.75" PointY="12.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="RockMakerModel.GridVaryAlong" Width="1.5" PointX="0.75" PointY="78.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="RockMakerModel.Group" Width="1.5" PointX="1.5" PointY="94.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="RockMakerModel.GroupUser" Width="1.5" PointX="3.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RockMakerModel.Image" Width="1.5" PointX="41.5" PointY="29" IsExpanded="true" />
+        <EntityTypeShape EntityType="RockMakerModel.ImageBatch" Width="1.5" PointX="1.5" PointY="39.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="RockMakerModel.ImageBatchAutoScoreThreshold" Width="1.5" PointX="3.75" PointY="40" IsExpanded="true" />
+        <EntityTypeShape EntityType="RockMakerModel.ImageBatchWellDropScore" Width="1.5" PointX="39.25" PointY="29.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="RockMakerModel.ImageManagement" Width="1.5" PointX="39.25" PointY="8.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="RockMakerModel.ImageManagementAction" Width="1.5" PointX="41.5" PointY="15.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="RockMakerModel.ImageProperty" Width="1.5" PointX="43.75" PointY="30" IsExpanded="true" />
+        <EntityTypeShape EntityType="RockMakerModel.Imager" Width="1.5" PointX="1.5" PointY="97.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="RockMakerModel.ImagerGroup" Width="1.5" PointX="3.75" PointY="94.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RockMakerModel.ImageStore" Width="1.5" PointX="39.25" PointY="11.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="RockMakerModel.ImageStoreLayout" Width="1.5" PointX="37" PointY="11.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="RockMakerModel.ImageType" Width="1.5" PointX="39.25" PointY="41.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="RockMakerModel.ImagingSchedule" Width="1.5" PointX="1.5" PointY="68.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="RockMakerModel.ImagingScheduleEntry" Width="1.5" PointX="1.5" PointY="36.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="RockMakerModel.ImagingScheduleEntryCaptureProfile" Width="1.5" PointX="41.25" PointY="26.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="RockMakerModel.ImagingTask" Width="1.5" PointX="1.5" PointY="45" IsExpanded="true" />
+        <EntityTypeShape EntityType="RockMakerModel.ImagingTaskCaptureProfile" Width="1.5" PointX="41.25" PointY="34.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="RockMakerModel.ImagingTaskWellDrop" Width="1.5" PointX="16.5" PointY="35.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="RockMakerModel.IncubationTemp" Width="1.5" PointX="8.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RockMakerModel.Ingredient" Width="1.5" PointX="0.75" PointY="24.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RockMakerModel.IngredientAlia" Width="1.5" PointX="3" PointY="24.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="RockMakerModel.IngredientIngredientType" Width="1.5" PointX="3" PointY="82.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="RockMakerModel.IngredientStock" Width="1.5" PointX="3" PointY="27.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="RockMakerModel.IngredientType" Width="1.5" PointX="0.75" PointY="82.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="RockMakerModel.IngredientTypeColor" Width="1.5" PointX="1.5" PointY="87" IsExpanded="true" />
+        <EntityTypeShape EntityType="RockMakerModel.Layer" Width="1.5" PointX="4.5" PointY="16.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="RockMakerModel.LidStorage" Width="1.5" PointX="6" PointY="66.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="RockMakerModel.LidStorageType" Width="1.5" PointX="3.75" PointY="66" IsExpanded="true" />
+        <EntityTypeShape EntityType="RockMakerModel.LiquidClass" Width="1.5" PointX="0.75" PointY="30.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="RockMakerModel.MicrofluidicsExperiment" Width="1.5" PointX="3" PointY="10.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="RockMakerModel.MicrofluidicsImageBatchWellDropRank" Width="1.5" PointX="10.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RockMakerModel.NotificationType" Width="1.5" PointX="12.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RockMakerModel.Plate" Width="1.5" PointX="1.5" PointY="55" IsExpanded="true" />
+        <EntityTypeShape EntityType="RockMakerModel.PlateEventType" Width="1.5" PointX="4.5" PointY="52.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="RockMakerModel.Project" Width="1.5" PointX="6.75" PointY="42.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="RockMakerModel.Property" Width="1.5" PointX="12.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RockMakerModel.PropertyListType" Width="1.5" PointX="7.75" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="RockMakerModel.PropertyListValue" Width="1.5" PointX="10" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="RockMakerModel.ProteinFormulation" Width="1.5" PointX="6" PointY="28.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RockMakerModel.ProteinFormulationAttachment" Width="1.5" PointX="8.25" PointY="30.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="RockMakerModel.ProteinFormulationIngredient" Width="1.5" PointX="14.25" PointY="29.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="RockMakerModel.ProteinFormulationIngredientType" Width="1.5" PointX="12" PointY="18.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="RockMakerModel.ProteinFormulationStandardIngredient" Width="1.5" PointX="11.25" PointY="29.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="RockMakerModel.ProteinLayer" Width="1.5" PointX="12" PointY="21.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="RockMakerModel.ProteinLayerProteinFormulation" Width="1.5" PointX="14.25" PointY="25.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="RockMakerModel.Rack" Width="1.5" PointX="3" PointY="91" IsExpanded="true" />
+        <EntityTypeShape EntityType="RockMakerModel.RackIngredient" Width="1.5" PointX="5.25" PointY="34.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RockMakerModel.RackType" Width="1.5" PointX="0.75" PointY="90.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="RockMakerModel.RandomLayer" Width="1.5" PointX="6.75" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RockMakerModel.RandomLayerExcludeList" Width="1.5" PointX="9" PointY="22.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="RockMakerModel.RandomLayerGenerationList" Width="1.5" PointX="11.25" PointY="15.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="RockMakerModel.RandomLayerGroupIngredient" Width="1.5" PointX="11.25" PointY="24.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="RockMakerModel.RandomLayerIngredientGroup" Width="1.5" PointX="9" PointY="18" IsExpanded="true" />
+        <EntityTypeShape EntityType="RockMakerModel.Region" Width="1.5" PointX="34" PointY="19.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="RockMakerModel.RegionAnnotation" Width="1.5" PointX="36.25" PointY="20.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RockMakerModel.RegionAnnotationType" Width="1.5" PointX="34" PointY="16.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="RockMakerModel.RegionCaptureProfile" Width="1.5" PointX="39.25" PointY="21.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="RockMakerModel.RegionProperty" Width="1.5" PointX="36.25" PointY="38.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RockMakerModel.RegionRuler" Width="1.5" PointX="36.25" PointY="41.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="RockMakerModel.RegionScribble" Width="1.5" PointX="36.25" PointY="44.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RockMakerModel.RegionScribblePoint" Width="1.5" PointX="38.5" PointY="44.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="RockMakerModel.RegionType" Width="1.5" PointX="31.75" PointY="21.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="RockMakerModel.ScreenExperiment" Width="1.5" PointX="12.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RockMakerModel.ScreenLayer" Width="1.5" PointX="6.75" PointY="9.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="RockMakerModel.ScreenLot" Width="1.5" PointX="5.75" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="RockMakerModel.ScreenLotPlate" Width="1.5" PointX="3.75" PointY="55.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="RockMakerModel.Search" Width="1.5" PointX="24" PointY="45.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="RockMakerModel.SearchChart" Width="1.5" PointX="26.25" PointY="46.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="RockMakerModel.SearchConstraint" Width="1.5" PointX="26.25" PointY="19.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="RockMakerModel.SearchConstraintTreeNode" Width="1.5" PointX="24" PointY="14.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="RockMakerModel.SearchDisplayField" Width="1.5" PointX="29.25" PointY="34.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="RockMakerModel.SearchField" Width="1.5" PointX="24" PointY="22" IsExpanded="true" />
+        <EntityTypeShape EntityType="RockMakerModel.SearchPath" Width="1.5" PointX="26.25" PointY="59.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="RockMakerModel.SearchResultField" Width="1.5" PointX="26.25" PointY="30.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="RockMakerModel.SearchTarget" Width="1.5" PointX="21.75" PointY="18.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="RockMakerModel.SearchTargetField" Width="1.5" PointX="29.25" PointY="20.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="RockMakerModel.SearchTargetRelation" Width="1.5" PointX="24" PointY="26.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RockMakerModel.SetupTemp" Width="1.5" PointX="13.75" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RockMakerModel.TreeNode" Width="1.5" PointX="1.5" PointY="71.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RockMakerModel.TreeNodeAccessRight" Width="1.5" PointX="3.75" PointY="43.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="RockMakerModel.TreeNodeFile" Width="1.5" PointX="3.75" PointY="73.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="RockMakerModel.UserRecentDocument" Width="1.5" PointX="9.75" PointY="42.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="RockMakerModel.User" Width="1.5" PointX="1.5" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="RockMakerModel.Vendor" Width="1.5" PointX="0.75" PointY="33.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RockMakerModel.Well" Width="1.5" PointX="12" PointY="39.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="RockMakerModel.WellDrop" Width="1.5" PointX="14.25" PointY="34.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="RockMakerModel.WellDropLayer" Width="1.5" PointX="19.5" PointY="34.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="RockMakerModel.WellDropLayerIngredient" Width="1.5" PointX="11.25" PointY="34" IsExpanded="true" />
+        <EntityTypeShape EntityType="RockMakerModel.WellDropScore" Width="1.5" PointX="37" PointY="48.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="RockMakerModel.WellDropScoreGroup" Width="1.5" PointX="34.75" PointY="48.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="RockMakerModel.WellLayer" Width="1.5" PointX="6" PointY="38.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="RockMakerModel.WellLayerIngredient" Width="1.5" PointX="8.25" PointY="37" IsExpanded="true" />
+        <EntityTypeShape EntityType="RockMakerModel.PlateEvent" Width="1.5" PointX="6.75" PointY="56.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="RockMakerModel.SearchTargetChart" Width="1.5" PointX="24" PointY="19.25" IsExpanded="true" />
+        <AssociationConnector Association="RockMakerModel.FK_TreeNodeAccessRight_AccessRight" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_Ingredient_BufferCalculationType" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_BufferDataPoint_Ingredient" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_CaptureProfile_ExperimentPlate" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_CaptureProfileTuningValues_CaptureProfile" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_CaptureProfileVersion_CaptureProfile" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_ExperimentCaptureProfileTuningValues_CaptureProfile" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_ImageBatchWellDropScore_CaptureProfile" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_ImagingScheduleEntryCaptureProfile_CaptureProfile" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_ImagingTaskCaptureProfile_CaptureProfile" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_RegionCaptureProfile_CaptureProfile" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_CaptureProperty_CaptureProfileVersion" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_CaptureResult_CaptureProfileVersion" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_CaptureResult_Image" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_CaptureResult_ImageBatch" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_CaptureResult_Region" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_CaptureResultProperty_CaptureResult" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_CaptureResultTuningValues_CaptureResult" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_FocalPoint_CaptureResult" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_Image_CaptureResult" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_CASNumber_Ingredient" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK__SearchTar__Chart__0E591826" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_GraphRequiredField_Graph" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_SearchChart_Chart" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_GraphRequiredField_SearchField" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_Condition_ConditionListLayer" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_ConditionIngredient_Condition" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_ConditionIngredient_IngredientIngredientType" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_ConditionIngredient_IngredientStock" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_ConditionIngredient_IngredientStock_HighPH" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_ConditionListLayer_Experiment" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_ConditionListLayer_Layer" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_ContainerDrop_Containers" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_Experiment_Container" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_ScreenLot_Container" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_Deck_DispensingRobot" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_Deck_LidStorage" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_Deck_Rack" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_DispenseQueue_DispensingRobot" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_DispenseQueue_Plate" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK__Dispensin__TypeI__68D28DBC" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK__Dispensin__TypeI__6D2D2E85" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_DriverProperty_DispensingRobot" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_LidStorageType_DispensingRobot" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_Plate_DispensingRobot" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_RackType_DispensingRobot" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_Experiment_ImageBatch" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_Experiment_ImagingSchedule" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_Experiment_TreeNode" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_Experiment_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_ExperimentCaptureProfileTuningValues_Experiment" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_Grid_Experiment" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_MicrofluidicsExperiment_Experiment" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_Plate_Experiment" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_RandomLayer_Experiment" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_ScreenLayer_Experiment" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_ScreenLot_Experiment" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_ExperimentPlate_Plate" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_ImagingTask_ExperimentPlate" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_FavoriteIngredientStock_IngredientIngredientType" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_FavoriteIngredientStock_IngredientStock" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_FavoriteIngredientStock_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_Filter_Search" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_Filter_SearchField" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_FilterValue_Filter" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_Grid_GridVaryAlong" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_GridIngredient_Grid" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_GridLayer_Grid" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_GridIngredient_GridVaryAlong_ConcentrationVaryAlong" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_GridIngredient_GridVaryAlong_pHVaryAlong" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_GridIngredient_IngredientIngredientType" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_GridIngredient_IngredientStock" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_GridIngredient_IngredientStock_HighPH" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_GridLayer_Layer" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_GroupUser_Group" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_ImagerGroups_Groups" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_TreeNodeAccessRight_Group" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_GroupUser_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_Image_ImageStore" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_Image_ImageType" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_ImageProperty_Image" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_ImageBatch_ImagingTask" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_ImageBatchAutoScoreThreshold_ImageBatch" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_ImageBatchWellDropScore_ImageBatch" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_ImageBatchWellDropScore_Region" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_ImageBatchWellDropScore_WellDropScore" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_ImageManagement_TreeNode" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_ImageManagementAction_ImageManagement" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_ImageManagementAction_SearchConstraintTreeNode" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_ImageManagementAction_SourceImageStore" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_ImageManagementAction_TargetImageStore" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_ImagerGroups_Imager" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_ImageStore_ImageStoreLayout" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_ImagingScheduleEntry_ImagingSchedule" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_Project_ImagingSchedule" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_ImagingScheduleEntryCaptureProfile_ImagingScheduleEntry" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_ImagingTask_ImagingScheduleEntry" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_ImagingTaskCaptureProfile_ImagingTask" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_ImagingTaskWellDrop_ImagingTask" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_ImagingTaskWellDrop_WellDrop" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_IngredientAlias_Ingredient" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_IngredientIngredientType_Ingredient" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_IngredientStock_Ingredient" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_RandomLayerExcludeList_Ingredient1" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_RandomLayerExcludeList_Ingredient2" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_IngredientIngredientType_IngredientType" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_ProteinFormulationStandardIngredient_IngredientIngredientType" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_RandomLayerGroupIngredient_IngredientIngredientType" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_WellDropLayerIngredient_IngredientIngredientType" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_WellLayerIngredient_IngredientIngredientType" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_IngredientStock_LiquidClass" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_IngredientStock_Vendor" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_ProteinFormulationStandardIngredient_HighPHIngredientStock" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_ProteinFormulationStandardIngredient_IngredientStock" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_RackIngredient_IngredientStock" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_RandomLayerGroupIngredient_IngredientStock" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_RandomLayerGroupIngredient_IngredientStock_HighPH" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_WellDropLayerIngredient_IngredientStock" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_WellDropLayerIngredient_IngredientStock_HighPH" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_WellLayerIngredient_IngredientStock" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_WellLayerIngredient_IngredientStock_HighPH" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_IngredientType_IngredientTypeColor" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_ProteinLayer_Layer" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_RandomLayer_Layer" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_ScreenLayer_Layer" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_WellDropLayer_Layer" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_WellLayer_Layer" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_LidStorage_LidStorageType" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK__ProteinFo__Liqui__34B3CB38" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK__ProteinFo__Liqui__7908F585" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_PlateEvents_Plate" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_ScreenLotPlate_Plate" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_Well_Plate" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_PlateEvents_PlateEventType" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_Project_TreeNode" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_Project_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_PropertyListValue_PropertyListType" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_ProteinFormulation_TreeNode" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_ProteinFormulationAttachment_ProteinFormulation" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_ProteinFormulationIngredient_ProteinFormulation" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_ProteinFormulationStandardIngredient_ProteinFormulation" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_ProteinLayerProteinFormulation_ProteinFormulation" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_WellDrop_ProteinFormulation" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_ProteinFormulationIngredient_ProteinFormulationType" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_ProteinLayerProteinFormulation_ProteinLayer" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_Rack_RackType" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_RackIngredient_Rack" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_RandomLayerExcludeList_RandomLayer" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_RandomLayerIngredientGroup_RandomLayer" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_RandomLayerGenerationList_RandomLayerIngredientGroup" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_RandomLayerGroupIngredient_RandomLayerIngredientGroup" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_Region_Region" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_Region_RegionType" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_RegionAnnotation_Region" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_RegionCaptureProfile_Region" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_RegionProperty_Region" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_RegionRuler_Region" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_RegionScribble_Region" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_RegionAnnotation_RegionAnnotationType" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_RegionScribblePoint_RegionScribble" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_ScreenLayer_ScreenLot" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_ScreenLotPlate_ScreenLot" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK__SearchPat__Searc__1B5E0D89" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK__SearchPat__Searc__6B0FDBE9" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK__SearchRes__Searc__1975C517" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK__SearchRes__Searc__6CF8245B" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_Search_FlattenTarget" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_Search_SearchConstraintTreeNode" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_Search_SearchTarget" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_Search_TreeNode" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_SearchChart_Search" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_SearchDisplayField_Search" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_SearchConstraint_SearchConstraintTreeNode" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_SearchConstraint_SearchField" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_SearchConstraintTreeNode_ParentSearchConstraintTreeNode" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_SearchConstraintTreeNode_RootSearchConstraintTreeNode" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_SearchDisplayField_SearchField" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK__SearchRes__Searc__1A69E950" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK__SearchRes__Searc__6DEC4894" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK__SearchTar__Searc__1E3A7A34" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK__SearchTar__Searc__6FD49106" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_SearchField_SearchTarget" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK__SearchPat__TreeN__1C5231C2" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK__SearchPat__TreeN__6C040022" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK__SearchTar__Searc__0D64F3ED" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK__SearchTar__Searc__1D4655FB" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK__SearchTar__Searc__6EE06CCD" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_SearchTargetRelations_SearchTarget" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_SearchTargetRelations_SearchTarget1" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK__UserRecen__TreeN__0A888742" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_TreeNode_TreeNode" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_TreeNodeAccessRight_TreeNode" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_TreeNodeFile_TreeNode" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_TreeNodeAccessRight_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK__UserRecen__UserI__0B7CAB7B" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_WellDrop_Well" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_WellLayer_Well" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_WellDropLayer_Tmp_WellDrop" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_WellDropLayerIngredient_WellDropLayer" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_WellDropScore_WellDropScoreGroup" ManuallyRouted="false" />
+        <AssociationConnector Association="RockMakerModel.FK_WellLayerIngredient_WellLayer" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

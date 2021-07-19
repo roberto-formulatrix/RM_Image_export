@@ -1,0 +1,494 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C18C7127-5F60-4F1A-B3B3-95EDDDE39612}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>RockMakerModel</RootNamespace>
+    <AssemblyName>RockMakerModel</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AccessRight.cs">
+      <DependentUpon>RockMakerEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BufferCalculationType.cs">
+      <DependentUpon>RockMakerEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BufferDataPoint.cs">
+      <DependentUpon>RockMakerEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CaptureProfile.cs">
+      <DependentUpon>RockMakerEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CaptureProfileTuningValue.cs">
+      <DependentUpon>RockMakerEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CaptureProfileVersion.cs">
+      <DependentUpon>RockMakerEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CaptureProperty.cs">
+      <DependentUpon>RockMakerEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CaptureResult.cs">
+      <DependentUpon>RockMakerEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CaptureResultProperty.cs">
+      <DependentUpon>RockMakerEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CaptureResultTuningValue.cs">
+      <DependentUpon>RockMakerEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CASNumber.cs">
+      <DependentUpon>RockMakerEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Chart.cs">
+      <DependentUpon>RockMakerEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ChartRequiredField.cs">
+      <DependentUpon>RockMakerEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Condition.cs">
+      <DependentUpon>RockMakerEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ConditionIngredient.cs">
+      <DependentUpon>RockMakerEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ConditionListLayer.cs">
+      <DependentUpon>RockMakerEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Container.cs">
+      <DependentUpon>RockMakerEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContainerDrop.cs">
+      <DependentUpon>RockMakerEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DatabaseProperty.cs">
+      <DependentUpon>RockMakerEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Deck.cs">
+      <DependentUpon>RockMakerEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DispenseQueue.cs">
+      <DependentUpon>RockMakerEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DispensingRobot.cs">
+      <DependentUpon>RockMakerEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DispensingRobotType.cs">
+      <DependentUpon>RockMakerEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DriverProperty.cs">
+      <DependentUpon>RockMakerEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Experiment.cs">
+      <DependentUpon>RockMakerEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ExperimentCaptureProfileTuningValue.cs">
+      <DependentUpon>RockMakerEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ExperimentPlate.cs">
+      <DependentUpon>RockMakerEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ExperimentPlateEvent.cs">
+      <DependentUpon>RockMakerEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FavoriteIngredientStock.cs">
+      <DependentUpon>RockMakerEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Filter.cs">
+      <DependentUpon>RockMakerEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FilterValue.cs">
+      <DependentUpon>RockMakerEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FocalPoint.cs">
+      <DependentUpon>RockMakerEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Grid.cs">
+      <DependentUpon>RockMakerEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GridIngredient.cs">
+      <DependentUpon>RockMakerEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GridLayer.cs">
+      <DependentUpon>RockMakerEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GridVaryAlong.cs">
+      <DependentUpon>RockMakerEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Group.cs">
+      <DependentUpon>RockMakerEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GroupUser.cs">
+      <DependentUpon>RockMakerEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Image.cs">
+      <DependentUpon>RockMakerEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ImageBatch.cs">
+      <DependentUpon>RockMakerEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ImageBatchAutoScoreThreshold.cs">
+      <DependentUpon>RockMakerEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ImageBatchWellDropScore.cs">
+      <DependentUpon>RockMakerEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ImageManagement.cs">
+      <DependentUpon>RockMakerEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ImageManagementAction.cs">
+      <DependentUpon>RockMakerEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ImageProperty.cs">
+      <DependentUpon>RockMakerEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Imager.cs">
+      <DependentUpon>RockMakerEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ImagerGroup.cs">
+      <DependentUpon>RockMakerEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ImageStore.cs">
+      <DependentUpon>RockMakerEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ImageStoreLayout.cs">
+      <DependentUpon>RockMakerEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ImageType.cs">
+      <DependentUpon>RockMakerEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ImagingSchedule.cs">
+      <DependentUpon>RockMakerEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ImagingScheduleEntry.cs">
+      <DependentUpon>RockMakerEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ImagingScheduleEntryCaptureProfile.cs">
+      <DependentUpon>RockMakerEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ImagingTask.cs">
+      <DependentUpon>RockMakerEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ImagingTaskCaptureProfile.cs">
+      <DependentUpon>RockMakerEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ImagingTaskWellDrop.cs">
+      <DependentUpon>RockMakerEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="IncubationTemp.cs">
+      <DependentUpon>RockMakerEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Ingredient.cs">
+      <DependentUpon>RockMakerEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="IngredientAlia.cs">
+      <DependentUpon>RockMakerEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="IngredientIngredientType.cs">
+      <DependentUpon>RockMakerEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="IngredientStock.cs">
+      <DependentUpon>RockMakerEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="IngredientType.cs">
+      <DependentUpon>RockMakerEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="IngredientTypeColor.cs">
+      <DependentUpon>RockMakerEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Layer.cs">
+      <DependentUpon>RockMakerEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LidStorage.cs">
+      <DependentUpon>RockMakerEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LidStorageType.cs">
+      <DependentUpon>RockMakerEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LiquidClass.cs">
+      <DependentUpon>RockMakerEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="MicrofluidicsExperiment.cs">
+      <DependentUpon>RockMakerEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="MicrofluidicsImageBatchWellDropRank.cs">
+      <DependentUpon>RockMakerEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NotificationType.cs">
+      <DependentUpon>RockMakerEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Plate.cs">
+      <DependentUpon>RockMakerEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PlateEvent.cs">
+      <DependentUpon>RockMakerEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PlateEventType.cs">
+      <DependentUpon>RockMakerEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Project.cs">
+      <DependentUpon>RockMakerEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Property.cs">
+      <DependentUpon>RockMakerEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PropertyListType.cs">
+      <DependentUpon>RockMakerEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PropertyListValue.cs">
+      <DependentUpon>RockMakerEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ProteinFormulation.cs">
+      <DependentUpon>RockMakerEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ProteinFormulationAttachment.cs">
+      <DependentUpon>RockMakerEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ProteinFormulationIngredient.cs">
+      <DependentUpon>RockMakerEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ProteinFormulationIngredientType.cs">
+      <DependentUpon>RockMakerEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ProteinFormulationStandardIngredient.cs">
+      <DependentUpon>RockMakerEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ProteinLayer.cs">
+      <DependentUpon>RockMakerEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ProteinLayerProteinFormulation.cs">
+      <DependentUpon>RockMakerEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Rack.cs">
+      <DependentUpon>RockMakerEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RackIngredient.cs">
+      <DependentUpon>RockMakerEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RackType.cs">
+      <DependentUpon>RockMakerEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RandomLayer.cs">
+      <DependentUpon>RockMakerEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RandomLayerExcludeList.cs">
+      <DependentUpon>RockMakerEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RandomLayerGenerationList.cs">
+      <DependentUpon>RockMakerEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RandomLayerGroupIngredient.cs">
+      <DependentUpon>RockMakerEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RandomLayerIngredientGroup.cs">
+      <DependentUpon>RockMakerEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Region.cs">
+      <DependentUpon>RockMakerEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RegionAnnotation.cs">
+      <DependentUpon>RockMakerEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RegionAnnotationType.cs">
+      <DependentUpon>RockMakerEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RegionCaptureProfile.cs">
+      <DependentUpon>RockMakerEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RegionProperty.cs">
+      <DependentUpon>RockMakerEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RegionRuler.cs">
+      <DependentUpon>RockMakerEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RegionScribble.cs">
+      <DependentUpon>RockMakerEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RegionScribblePoint.cs">
+      <DependentUpon>RockMakerEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RegionType.cs">
+      <DependentUpon>RockMakerEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RockMakerEntities.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RockMakerEntities.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RockMakerEntities.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RockMakerEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RockMakerEntities.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RockMakerEntities.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="ScreenExperiment.cs">
+      <DependentUpon>RockMakerEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ScreenLayer.cs">
+      <DependentUpon>RockMakerEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ScreenLot.cs">
+      <DependentUpon>RockMakerEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ScreenLotPlate.cs">
+      <DependentUpon>RockMakerEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Search.cs">
+      <DependentUpon>RockMakerEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SearchChart.cs">
+      <DependentUpon>RockMakerEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SearchConstraint.cs">
+      <DependentUpon>RockMakerEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SearchConstraintTreeNode.cs">
+      <DependentUpon>RockMakerEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SearchDisplayField.cs">
+      <DependentUpon>RockMakerEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SearchField.cs">
+      <DependentUpon>RockMakerEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SearchPath.cs">
+      <DependentUpon>RockMakerEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SearchResultField.cs">
+      <DependentUpon>RockMakerEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SearchTarget.cs">
+      <DependentUpon>RockMakerEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SearchTargetChart.cs">
+      <DependentUpon>RockMakerEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SearchTargetField.cs">
+      <DependentUpon>RockMakerEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SearchTargetRelation.cs">
+      <DependentUpon>RockMakerEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SetupTemp.cs">
+      <DependentUpon>RockMakerEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TreeNode.cs">
+      <DependentUpon>RockMakerEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TreeNodeAccessRight.cs">
+      <DependentUpon>RockMakerEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TreeNodeFile.cs">
+      <DependentUpon>RockMakerEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="User.cs">
+      <DependentUpon>RockMakerEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="UserRecentDocument.cs">
+      <DependentUpon>RockMakerEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Vendor.cs">
+      <DependentUpon>RockMakerEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Well.cs">
+      <DependentUpon>RockMakerEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WellDrop.cs">
+      <DependentUpon>RockMakerEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WellDropLayer.cs">
+      <DependentUpon>RockMakerEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WellDropLayerIngredient.cs">
+      <DependentUpon>RockMakerEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WellDropScore.cs">
+      <DependentUpon>RockMakerEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WellDropScoreGroup.cs">
+      <DependentUpon>RockMakerEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WellLayer.cs">
+      <DependentUpon>RockMakerEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WellLayerIngredient.cs">
+      <DependentUpon>RockMakerEntities.tt</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EntityDeploy Include="RockMakerEntities.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>RockMakerEntities.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.Config" />
+    <None Include="packages.config" />
+    <None Include="RockMakerEntities.edmx.diagram">
+      <DependentUpon>RockMakerEntities.edmx</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="RockMakerEntities.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>RockMakerEntities.Context.cs</LastGenOutput>
+      <DependentUpon>RockMakerEntities.edmx</DependentUpon>
+    </Content>
+    <Content Include="RockMakerEntities.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>RockMakerEntities.edmx</DependentUpon>
+      <LastGenOutput>RockMakerEntities.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
